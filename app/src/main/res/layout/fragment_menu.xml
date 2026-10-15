@@ -11,14 +11,14 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="MENU"
+        android:text="@string/title_menu"
         android:textSize="32sp"
         android:textStyle="bold" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="원하는 항목을 선택하세요."
+        android:text="@string/menu_prompt"
         android:textSize="18sp"
         android:layout_marginTop="20dp" />
 
@@ -26,21 +26,21 @@
         android:id="@+id/btnAndroid"
         android:layout_width="200dp"
         android:layout_height="wrap_content"
-        android:text="Android"
+        android:text="@string/btn_android"
         android:layout_marginTop="30dp" />
 
     <Button
         android:id="@+id/btnKotlin"
         android:layout_width="200dp"
         android:layout_height="wrap_content"
-        android:text="Kotlin"
+        android:text="@string/btn_kotlin"
         android:layout_marginTop="10dp" />
 
     <Button
         android:id="@+id/btnBackHome"
         android:layout_width="200dp"
         android:layout_height="wrap_content"
-        android:text="HOME으로 돌아가기"
+        android:text="@string/btn_back_home"
         android:layout_marginTop="30dp" />
 
 </LinearLayout>
